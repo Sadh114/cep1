@@ -1,0 +1,118 @@
+.desktop {
+    background-color: #ececec;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .overlap-group-wrapper {
+    background-color: #ececec;
+    width: 1440px;
+    height: 2817px;
+  }
+  
+  .desktop .overlap-group {
+    position: relative;
+    height: 2817px;
+  }
+  
+  .desktop .frame {
+    position: absolute;
+    width: 1440px;
+    height: 2817px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+      180deg,
+      rgb(21.12, 161.16, 168.94) 0%,
+      rgb(32.35, 60.08, 61.62) 73.5%
+    );
+  }
+  
+  .desktop .book-my-care {
+    position: absolute;
+    width: 587px;
+    top: 1137px;
+    left: 426px;
+    font-family: "Lato-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #e5e7eb;
+    font-size: 88px;
+    letter-spacing: 3.52px;
+    line-height: normal;
+  }
+  
+  .desktop .logooo {
+    position: absolute;
+    width: 602px;
+    height: 592px;
+    top: 473px;
+    left: 411px;
+    object-fit: cover;
+  }
+  
+  .desktop .button-set {
+    display: flex;
+    width: 594px;
+    height: 223px;
+    align-items: center;
+    gap: 181px;
+    position: absolute;
+    top: 1336px;
+    left: 345px;
+  }
+  
+  .desktop .master-primary {
+    display: flex;
+    width: 313px;
+    height: 153px;
+    align-items: center;
+    gap: 8px;
+    padding: 24px 36px;
+    position: relative;
+    background-color: #007e85;
+    border-radius: 40px;
+  }
+  
+  .desktop .button-text {
+    position: relative;
+    width: fit-content;
+    font-family: "Lato-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--neutral-colorswhite);
+    font-size: 53px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .desktop .master-secondary {
+    display: flex;
+    width: 313px;
+    height: 153px;
+    align-items: center;
+    gap: 8px;
+    padding: 24px 36px;
+    position: relative;
+    margin-right: -213.00px;
+    background-color: var(--neutral-colorswhite);
+    border-radius: 36.55px;
+    border: 1px solid;
+    border-color: #d3d2e3;
+  }
+  
+  .desktop .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: "Lato-Bold", Helvetica;
+    font-weight: 700;
+    color: #007e85;
+    font-size: 54px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
